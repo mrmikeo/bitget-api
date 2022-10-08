@@ -1,0 +1,32 @@
+export declare class PlaceOrderReq {
+    private _symbol;
+    private _marginCoin;
+    private _clientOid;
+    private _size;
+    private _side;
+    private _orderType;
+    private _price;
+    private _timeInForceValue;
+    private _presetTakeProfitPrice;
+    private _presetStopLossPrice;
+    get symbol(): string;
+    set symbol(value: string);
+    get marginCoin(): string;
+    set marginCoin(value: string);
+    get clientOid(): string;
+    set clientOid(value: string);
+    get size(): string;
+    set size(value: string);
+    get side(): string;
+    set side(value: string);
+    get orderType(): string;
+    set orderType(value: string);
+    get price(): string;
+    set price(value: string);
+    get timeInForceValue(): string;
+    set timeInForceValue(value: string);
+    get presetTakeProfitPrice(): string;
+    set presetTakeProfitPrice(value: string);
+    get presetStopLossPrice(): string;
+    set presetStopLossPrice(value: string);
+}
